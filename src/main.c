@@ -9,17 +9,16 @@
 #define DATA_PATH "./"
 #endif
 
-//These should work without root
 static void shutdown(){
-  system("systemctl poweroff");
+  system("sudo poweroff");
 }
 
 static void suspend(){
-  system("systemctl suspend");
+  system("sudo zzz");
 }
 
 static void reboot(){
-  system("systemctl reboot");
+  system("sudo reboot");
 }
 
 static void activate (GtkApplication *app, gpointer user_data)
