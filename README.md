@@ -1,2 +1,2 @@
 # powermenu
-A minimal power menu for linux (arch)
+A minimal power menu for linux with dark theme

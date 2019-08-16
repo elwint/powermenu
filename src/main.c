@@ -98,10 +98,10 @@ static void activate (GtkApplication *app, gpointer user_data)
   gtk_grid_attach ( grid, cb_box,  3, 0, 1, 1);
 
   //Create the buttons and give them each a label
-  powerOffButton  = gtk_button_new_with_label ("Shut Down");
-  restartButton   = gtk_button_new_with_label ("Restart");
-  suspendButton   = gtk_button_new_with_label ("Suspend");
-  cancelButton    = gtk_button_new_with_label ("Cancel");
+  powerOffButton  = gtk_button_new();
+  restartButton   = gtk_button_new();
+  suspendButton   = gtk_button_new();
+  cancelButton    = gtk_button_new();
 
   //Set the icon for each button
   gtk_button_set_image( powerOffButton, powerImg    );
